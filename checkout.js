@@ -1,5 +1,5 @@
-import { cart, addToCart, removeFromCart, updateDeliveryOption, loadCart } from '../cart.js';
-import { products, loadProducts, loadProductsFetch } from '../data/products.js';
+import { cart, addToCart, removeFromCart, updateDeliveryOption, loadCart } from './cart.js';
+import { products, loadProducts, loadProductsFetch } from './data/products.js';
 import { formatMoney } from '../styles/shared/util/money.js';
 import { deliveryOptions } from './styles/shared/util/deliveryOptions.js';
 import { renderOrderSummary } from './renderOrderSummary.js';
