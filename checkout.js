@@ -4,7 +4,7 @@ import { formatMoney } from '../styles/shared/util/money.js';
 import { deliveryOptions } from './styles/shared/util/deliveryOptions.js';
 import { renderOrderSummary } from './renderOrderSummary.js';
 import { renderPaymentSummary } from './renderPaymentSummary.js';
-import {Cart }from '../cart-oop.js';
+import {Cart }from './cart-oop.js';
 
 
 
