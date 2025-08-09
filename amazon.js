@@ -1,6 +1,6 @@
 import { cart, addToCart } from '../cart.js';
 import {Cart} from '../cart-oop.js';
-import { saveToStorage } from './cart.js';
+import { saveToStorage } from '../cart.js';
 import {products, loadProducts} from '../data/products.js';
 
 loadProducts(renderProductsGrid);
